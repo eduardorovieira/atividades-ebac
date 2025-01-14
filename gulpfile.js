@@ -46,4 +46,3 @@ exports.watch = function() {
 }
 exports.javascript = comprimeJavaScript;
 exports.images = comprimeImagens;
-
