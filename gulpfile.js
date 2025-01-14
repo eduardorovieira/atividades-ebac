@@ -14,7 +14,7 @@ function comprimeImagens() {
 function comprimeJavaScript(){
   return gulp.src('./source/scripts/*.js')
   .pipe(uglify())
-  .pipe(obfuscate(npm ))
+  .pipe(obfuscate())
   .pipe(gulp.dest('./build/scripts'))
 }
 
